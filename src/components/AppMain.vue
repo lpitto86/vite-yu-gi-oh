@@ -1,5 +1,5 @@
 <script>
-import { store } from "../store.js";
+import { store } from "../state";
 export default {
   name: "AppMain",
   components: {
