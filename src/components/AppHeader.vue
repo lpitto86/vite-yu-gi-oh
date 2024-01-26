@@ -1,18 +1,8 @@
 <template>
   <header>
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-          <div class=" container justify-content-start align-items-center mx-1">
-              <img width="180" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Yu-Gi-Oh%21.png" alt="">
-              <a class="navbar-brand" href="#">Yu-Gi-Oh API</a>
-          </div>
-      </nav>
+    <div class="d-flex py-3">
+      <img class="align-self-center px-3" height="25" src="../assets/img/logo.jpeg" alt="" />
+      <h1 class="">Yu-Gi-Oh API</h1>
+    </div>
   </header>
 </template>
-
-<script>
-export default {
-  name: 'AppHeader',
-}
-</script>
-
-<style lang="scss" scoped></style>

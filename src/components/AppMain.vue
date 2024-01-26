@@ -1,5 +1,8 @@
 <script>
-import { store } from "../state";
+import { store } from "../store.js";
+import ButtonFilter from "./ButtonFilter.vue";
+import CountResult from "./CountResult.vue";
+import CardList from "./CardList.vue";
 export default {
   name: "AppMain",
   components: {

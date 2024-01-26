@@ -1,31 +1,18 @@
 <script>
-import AppHeader from './components/AppHeader.vue'
+import AppHeader from "./components/AppHeader.vue";
+import AppMain from "./components/AppMain.vue";
 
 export default {
-  name: 'App',
   components: {
     AppHeader,
+    AppMain,
   },
-  methods: {
-  }
-}
-
+};
 </script>
 
 <template>
   <AppHeader></AppHeader>
-
-  <footer>
-
-  </footer>
+  <AppMain></AppMain>
 </template>
 
-<style lang="scss">
-@use '../src/assets/scss/partials/variables' as *;
-
-
-
-.card {
-  background: $yugioh__bg;
-}
-</style>
+<style></style>
